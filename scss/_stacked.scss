@@ -1,0 +1,31 @@
+// Stacked Icons
+// -------------------------
+
+.#{$ts-css-prefix}-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: ($ts-fw-width*2);
+}
+
+.#{$ts-css-prefix}-stack-1x,
+.#{$ts-css-prefix}-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.#{$ts-css-prefix}-stack-1x {
+  line-height: inherit;
+}
+
+.#{$ts-css-prefix}-stack-2x {
+  font-size: 2em;
+}
+
+.#{$ts-css-prefix}-inverse {
+  color: $ts-inverse;
+}

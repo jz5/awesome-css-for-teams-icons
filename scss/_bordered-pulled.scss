@@ -1,0 +1,18 @@
+// Bordered & Pulled
+// -------------------------
+
+.#{$ts-css-prefix}-border {
+  border: solid .08em $ts-border-color;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+.#{$ts-css-prefix}-pull-left { float: left; }
+.#{$ts-css-prefix}-pull-right { float: right; }
+
+.#{$ts-css-prefix},
+.tsr,
+.tsl {
+  &.#{$ts-css-prefix}-pull-left { margin-right: .3em; }
+  &.#{$ts-css-prefix}-pull-right { margin-left: .3em; }
+}

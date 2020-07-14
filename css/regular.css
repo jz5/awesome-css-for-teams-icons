@@ -1,0 +1,24 @@
+/*!
+ * Awesome CSS for Teams UI Icons (Code: MIT License)
+ * Web fonts are reference from Microsoft Teams UI Icons (MIT License: https://github.com/OfficeDev/msteams-ui-components/blob/master/msteams-ui-icons/LICENSE.md)
+ * Original codes are from Font Awesome
+ */
+/*!
+ * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'MSTeamsIcons-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: url("../fonts/TeamsAssets-Regular.eot");
+  src: url("../fonts/TeamsAssets-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TeamsAssets-Regular.woff2") format("woff2"), url("../fonts/TeamsAssets-Regular.woff") format("woff"), url("../fonts/TeamsAssets-Regular.ttf") format("truetype"), url("../fonts/TeamsAssets-Regular.svg") format("svg");
+}
+
+.ts,
+.tsr {
+  font-family: 'MSTeamsIcons-Regular';
+  font-weight: normal;
+}
+/*# sourceMappingURL=regular.css.map */

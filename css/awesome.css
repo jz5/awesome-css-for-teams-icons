@@ -1,0 +1,3293 @@
+/*!
+ * Awesome CSS for Teams UI Icons (Code: MIT License)
+ * Web fonts are reference from Microsoft Teams UI Icons (MIT License: https://github.com/OfficeDev/msteams-ui-components/blob/master/msteams-ui-icons/LICENSE.md)
+ * Original codes are from Font Awesome
+ */
+/*!
+ * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.ts,
+.tsr,
+.tsl {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.ts-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em;
+}
+
+.ts-xs {
+  font-size: .75em;
+}
+
+.ts-sm {
+  font-size: .875em;
+}
+
+.ts-1x {
+  font-size: 1em;
+}
+
+.ts-2x {
+  font-size: 2em;
+}
+
+.ts-3x {
+  font-size: 3em;
+}
+
+.ts-4x {
+  font-size: 4em;
+}
+
+.ts-5x {
+  font-size: 5em;
+}
+
+.ts-6x {
+  font-size: 6em;
+}
+
+.ts-7x {
+  font-size: 7em;
+}
+
+.ts-8x {
+  font-size: 8em;
+}
+
+.ts-9x {
+  font-size: 9em;
+}
+
+.ts-10x {
+  font-size: 10em;
+}
+
+.ts-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.ts-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+
+.ts-ul > li {
+  position: relative;
+}
+
+.ts-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.ts-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+.ts-pull-left {
+  float: left;
+}
+
+.ts-pull-right {
+  float: right;
+}
+
+.ts.ts-pull-left,
+.tsr.ts-pull-left,
+.tsl.ts-pull-left {
+  margin-right: .3em;
+}
+
+.ts.ts-pull-right,
+.tsr.ts-pull-right,
+.tsl.ts-pull-right {
+  margin-left: .3em;
+}
+
+.ts-spin {
+  -webkit-animation: ts-spin 2s infinite linear;
+          animation: ts-spin 2s infinite linear;
+}
+
+.ts-pulse {
+  -webkit-animation: ts-spin 1s infinite steps(8);
+          animation: ts-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes ts-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes ts-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.ts-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.ts-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.ts-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.ts-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.ts-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.ts-flip-both, .ts-flip-horizontal.ts-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+:root .ts-rotate-90,
+:root .ts-rotate-180,
+:root .ts-rotate-270,
+:root .ts-flip-horizontal,
+:root .ts-flip-vertical,
+:root .ts-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.ts-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+.ts-stack-1x,
+.ts-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.ts-stack-1x {
+  line-height: inherit;
+}
+
+.ts-stack-2x {
+  font-size: 2em;
+}
+
+.ts-inverse {
+  color: #fff;
+}
+
+.ts-asd:before {
+  content: "\e900";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-activity:before {
+  content: "\e344";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-add-expression:before {
+  content: "\e348";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-add-participant:before {
+  content: "\e131";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-add-text:before {
+  content: "\e427";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-agent-certification:before {
+  content: "\e623";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-alert:before {
+  content: "\e625";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-alert-off:before {
+  content: "\e626";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-alert-off-status:before {
+  content: "\e627";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-announcement:before {
+  content: "\e62b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-approval:before {
+  content: "\e949";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-archive:before {
+  content: "\e972";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-at:before {
+  content: "\e902";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-auto-topup:before {
+  content: "\e50b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-avatar-bot-certified:before {
+  content: "\f121";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-avatar-bot-certified-stroke:before {
+  content: "\f120";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-avatar-bot-mask:before {
+  content: "\f11e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-avatar-bot-mask-inversed:before {
+  content: "\f11f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-avatar-bot-mask-with-presence:before {
+  content: "\f123";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-avatar-mask:before {
+  content: "\e21d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-backspace:before {
+  content: "\e43f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-badge:before {
+  content: "\e312";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-badge-center:before {
+  content: "\e41d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-badge-m2:before {
+  content: "\e342";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bing:before {
+  content: "\e015";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-birthday:before {
+  content: "\e303";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-block-notification:before {
+  content: "\e20d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-block-notification-large:before {
+  content: "\e20e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bluetooth:before {
+  content: "\e409";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bluetooth-speaker:before {
+  content: "\e424";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-board:before {
+  content: "\e915";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bold:before {
+  content: "\e931";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bookmark:before {
+  content: "\e901";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bot:before {
+  content: "\e21a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bot-add:before {
+  content: "\e21b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bot-add-s:before {
+  content: "\e21c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bottom-left:before {
+  content: "\f702";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bottom-right:before {
+  content: "\f701";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-broken-broadcast:before {
+  content: "\e94a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-bug:before {
+  content: "\e913";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-calendar:before {
+  content: "\e504";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-calendar-subscription:before {
+  content: "\e501";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-add:before {
+  content: "\e128";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-anim-small-1:before {
+  content: "\e705";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-anim-small-2:before {
+  content: "\e706";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-anim-small-3:before {
+  content: "\e707";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-anim-small-4:before {
+  content: "\e708";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-blocked:before {
+  content: "\e110";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-disabled:before {
+  content: "\e117";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-disabled-status:before {
+  content: "\e12a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-end:before {
+  content: "\e101";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-error:before {
+  content: "\e111";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-forward:before {
+  content: "\e112";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-in:before {
+  content: "\e10e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-missed:before {
+  content: "\e10d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-missed-centered:before {
+  content: "\e21f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-ok:before {
+  content: "\e129";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-out:before {
+  content: "\e10f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-quality-indicator:before {
+  content: "\e12c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-reverse:before {
+  content: "\e11c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-start:before {
+  content: "\e100";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-start-big:before {
+  content: "\e130";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-call-transfer:before {
+  content: "\e11d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-caller-id:before {
+  content: "\e114";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-camera:before {
+  content: "\e40c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cancel:before {
+  content: "\e413";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-change:before {
+  content: "\e919";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-channel-follow:before {
+  content: "\e990";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-channel-unfollow:before {
+  content: "\e991";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chat-deleted:before {
+  content: "\e322";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chat-favourite:before {
+  content: "\e330";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chat-filter:before {
+  content: "\e32f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chat-off:before {
+  content: "\e31d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chat-ok:before {
+  content: "\e31c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-down:before {
+  content: "\e41e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-left:before {
+  content: "\e420";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-med-down:before {
+  content: "\e447";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-med-left:before {
+  content: "\e448";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-med-right:before {
+  content: "\e449";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-med-up:before {
+  content: "\e44a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-right:before {
+  content: "\e421";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-small-down:before {
+  content: "\e44b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-small-left:before {
+  content: "\e44c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-small-right:before {
+  content: "\e44d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-small-up:before {
+  content: "\e44e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chevron-up:before {
+  content: "\e41f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chrome-close:before {
+  content: "\e8bb";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chrome-maximize:before {
+  content: "\e922";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chrome-minimize:before {
+  content: "\e921";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-chrome-restore:before {
+  content: "\e923";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-circle-big:before {
+  content: "\f100";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-circle-small:before {
+  content: "\e310";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-click:before {
+  content: "\e95f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-clipboard:before {
+  content: "\e920";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-clippy:before {
+  content: "\e124";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cloud-download:before {
+  content: "\e94c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-code-snippet:before {
+  content: "\e93a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-collapse:before {
+  content: "\e94d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-connectors:before {
+  content: "\e221";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact:before {
+  content: "\e200";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-add:before {
+  content: "\e201";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-blocked:before {
+  content: "\e205";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-bot:before {
+  content: "\f126";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-card:before {
+  content: "\e209";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-card-group:before {
+  content: "\e217";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-delete:before {
+  content: "\e206";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group:before {
+  content: "\e20b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-add:before {
+  content: "\e20a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-call:before {
+  content: "\e212";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-delete:before {
+  content: "\e20c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-ok:before {
+  content: "\e210";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-pair:before {
+  content: "\e214";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-pair-small:before {
+  content: "\e216";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-screenshare:before {
+  content: "\e213";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-group-video:before {
+  content: "\e211";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-in:before {
+  content: "\e208";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-ok:before {
+  content: "\e202";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-pstn:before {
+  content: "\e219";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-send:before {
+  content: "\e207";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-skype:before {
+  content: "\f125";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-contact-skypeout:before {
+  content: "\e218";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-conversation-new:before {
+  content: "\e328";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-add-to-list:before {
+  content: "\f208";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-calendar:before {
+  content: "\f200";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-create-appointment:before {
+  content: "\f206";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-create-reminder:before {
+  content: "\f205";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-list:before {
+  content: "\f209";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-reminder:before {
+  content: "\f201";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-reminder-person:before {
+  content: "\f202";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-reminder-place:before {
+  content: "\f204";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-reminder-time:before {
+  content: "\f203";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-cortana-time:before {
+  content: "\f207";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-dollar:before {
+  content: "\e5a2";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-euro:before {
+  content: "\e5a3";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-indian-rupee:before {
+  content: "\e5a8";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-israeli-sekel:before {
+  content: "\e5a6";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-saudi-riyal:before {
+  content: "\e5a7";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-sterling:before {
+  content: "\e5a0";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-turkish-lira:before {
+  content: "\e5a5";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-currency-yen:before {
+  content: "\e5a4";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-delete:before {
+  content: "\e42b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-devices:before {
+  content: "\e61b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dialpad:before {
+  content: "\e104";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dialpad-off:before {
+  content: "\e105";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-directions:before {
+  content: "\e509";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-display:before {
+  content: "\e125";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-down:before {
+  content: "\e416";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-download:before {
+  content: "\e33c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-download-arrow:before {
+  content: "\e452";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dropdown:before {
+  content: "\e435";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dropdown-icon-arrow:before {
+  content: "\e432";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dropdown-icon-badge:before {
+  content: "\e431";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dropdown-icon-bg:before {
+  content: "\e430";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dropdown-list:before {
+  content: "\e434";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-dropdown-menu:before {
+  content: "\e43d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-e989:before {
+  content: "\e989";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-earpiece:before {
+  content: "\e423";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-emoticon-stroke:before {
+  content: "\e30d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-eraser:before {
+  content: "\e436";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-error:before {
+  content: "\e600";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-expand:before {
+  content: "\e94e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-extension:before {
+  content: "\e947";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-favourite:before {
+  content: "\e113";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-favourite-on:before {
+  content: "\e40a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-feedback:before {
+  content: "\e442";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-feedback-20px:before {
+  content: "\e443";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-field-error:before {
+  content: "\e450";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-field-success:before {
+  content: "\e44f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file:before {
+  content: "\e306";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-add:before {
+  content: "\e983";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-ae:before {
+  content: "\e96e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-ai:before {
+  content: "\e969";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-audio:before {
+  content: "\e334";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-blocked:before {
+  content: "\e973";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-code:before {
+  content: "\e970";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-deleted:before {
+  content: "\e31e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-error:before {
+  content: "\e31f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-fl:before {
+  content: "\e96b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-fw:before {
+  content: "\e96c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-gif:before {
+  content: "\e337";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-id:before {
+  content: "\e96d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-in:before {
+  content: "\e307";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-multiple:before {
+  content: "\e31a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-multiple-in:before {
+  content: "\e31b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-out:before {
+  content: "\e308";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-pdf:before {
+  content: "\e335";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-ps:before {
+  content: "\e96a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-search:before {
+  content: "\e309";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-send:before {
+  content: "\e971";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-sketch:before {
+  content: "\e96f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-text:before {
+  content: "\e33d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-video:before {
+  content: "\e333";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-file-zip:before {
+  content: "\e336";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-filter:before {
+  content: "\e914";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-fit-to-window:before {
+  content: "\e97f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-flag:before {
+  content: "\e917";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-flash:before {
+  content: "\e43b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-flash-off:before {
+  content: "\e43c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-folder:before {
+  content: "\e905";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-folder-add:before {
+  content: "\e906";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-folder-down:before {
+  content: "\e909";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-folder-find:before {
+  content: "\e907";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-folder-up:before {
+  content: "\e908";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-font-color:before {
+  content: "\e930";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-font-color-a:before {
+  content: "\e938";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-font-color-underline:before {
+  content: "\e939";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-font-size:before {
+  content: "\e932";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-fork:before {
+  content: "\e984";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-format:before {
+  content: "\e936";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-forward:before {
+  content: "\e12e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-forward-arrow:before {
+  content: "\e428";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-forward-filled:before {
+  content: "\e429";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-fullscreen:before {
+  content: "\e404";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-fullscreen-off:before {
+  content: "\e405";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-gvc-focus:before {
+  content: "\e134";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-gvc-grid:before {
+  content: "\e136";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-gif:before {
+  content: "\e94b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-globe:before {
+  content: "\e505";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-glossary:before {
+  content: "\e945";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-guest:before {
+  content: "\e985";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-guest-add:before {
+  content: "\e986";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-happy:before {
+  content: "\e326";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-hash:before {
+  content: "\e327";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-headset:before {
+  content: "\e407";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-headset-off:before {
+  content: "\e408";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-heart:before {
+  content: "\e42e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-heart-broken:before {
+  content: "\e42f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-heart-outline:before {
+  content: "\e441";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-hide:before {
+  content: "\e426";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-highlight:before {
+  content: "\e934";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-highlights:before {
+  content: "\e135";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-home:before {
+  content: "\e608";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-host:before {
+  content: "\e604";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-host-off:before {
+  content: "\e614";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-host-off-status:before {
+  content: "\e615";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype:before {
+  content: "\e001";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype-bg-large:before {
+  content: "\e00c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype-for-business:before {
+  content: "\e013";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype-for-business-bg-large:before {
+  content: "\e00f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype-for-business-glyph-large:before {
+  content: "\e010";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype-for-business-large:before {
+  content: "\e00e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype-glyph-large:before {
+  content: "\e00d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-icon-skype-large:before {
+  content: "\e012";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-angry:before {
+  content: "\e630";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-bigsmile:before {
+  content: "\e62e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-calling:before {
+  content: "\e628";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-love:before {
+  content: "\e632";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-monkey:before {
+  content: "\e633";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-sad:before {
+  content: "\e631";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-surprised:before {
+  content: "\e62d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-illustration-tmi:before {
+  content: "\e62f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-info:before {
+  content: "\e602";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-info-circle:before {
+  content: "\e451";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-insert:before {
+  content: "\e948";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-italics:before {
+  content: "\e918";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-keyboard:before {
+  content: "\e32e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-landline:before {
+  content: "\e11e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-landline-add:before {
+  content: "\e118";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-leave:before {
+  content: "\e220";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-left:before {
+  content: "\e418";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-like:before {
+  content: "\e912";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-link:before {
+  content: "\e612";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-list-numbered:before {
+  content: "\e93b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-location:before {
+  content: "\e610";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-logo-microsoft:before {
+  content: "\e002";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-logo-skype-cloud-medium:before {
+  content: "\e005";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-logo-skype-large:before {
+  content: "\e003";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-logo-skype-medium:before {
+  content: "\e004";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-logo-skype-small:before {
+  content: "\e011";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-logo-skype-text-medium:before {
+  content: "\e006";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-excel:before {
+  content: "\e316";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-office:before {
+  content: "\e014";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-onedrive:before {
+  content: "\e00b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-onenote:before {
+  content: "\e319";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-outlook:before {
+  content: "\e009";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-powerpoint:before {
+  content: "\e317";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-visio:before {
+  content: "\e318";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-windows:before {
+  content: "\e008";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-word:before {
+  content: "\e315";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ms-xbox:before {
+  content: "\e00a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-magic-wand:before {
+  content: "\e61c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-mail:before {
+  content: "\e411";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-mask:before {
+  content: "\e952";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-media:before {
+  content: "\e321";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-meet-now:before {
+  content: "\e911";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-meeting:before {
+  content: "\e503";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-meeting-plus:before {
+  content: "\e50a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-menu:before {
+  content: "\e30c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-menu-center:before {
+  content: "\e41a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-menu-list:before {
+  content: "\e30a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-menu-list-with-badge:before {
+  content: "\e30b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-menu-with-badge:before {
+  content: "\e314";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-menu-with-badge-center:before {
+  content: "\e41b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-merge-calls:before {
+  content: "\e108";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message:before {
+  content: "\e300";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-m2:before {
+  content: "\e340";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-question:before {
+  content: "\e33f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-rtl:before {
+  content: "\e345";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-read:before {
+  content: "\e32c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-unread:before {
+  content: "\e32b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-with-badge:before {
+  content: "\e313";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-with-badge-center:before {
+  content: "\e41c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-with-badge-m2:before {
+  content: "\e341";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-message-with-badge-rtl:before {
+  content: "\e347";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-microphone:before {
+  content: "\e106";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-microphone-conference:before {
+  content: "\e61f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-microphone-off:before {
+  content: "\e107";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-microphone-off-status:before {
+  content: "\e11a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-microphone-usb:before {
+  content: "\e61e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-microsoft-teams:before {
+  content: "\e016";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-minus:before {
+  content: "\e414";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-mobile:before {
+  content: "\e301";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-mobile-error:before {
+  content: "\e715";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-mobile-ok:before {
+  content: "\e712";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-mobile-settings:before {
+  content: "\e713";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-mobile-sms:before {
+  content: "\e714";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji:before {
+  content: "\f305";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-deleted:before {
+  content: "\f307";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-emoticon:before {
+  content: "\f303";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-full-stroke:before {
+  content: "\f30a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-mask:before {
+  content: "\f127";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-mask-inverted:before {
+  content: "\f128";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-more:before {
+  content: "\f300";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-previous:before {
+  content: "\f309";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-moji-recent:before {
+  content: "\f301";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-more:before {
+  content: "\e109";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-more-filled:before {
+  content: "\e94f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-more-vertical:before {
+  content: "\e325";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-move:before {
+  content: "\e437";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-movie:before {
+  content: "\e42a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-music:before {
+  content: "\e904";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-my-location:before {
+  content: "\e622";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-navigation-back:before {
+  content: "\e425";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-navigation-back-centered:before {
+  content: "\e439";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-navigation-close:before {
+  content: "\e440";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-navigation-forward:before {
+  content: "\e433";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-navigation-forward-centered:before {
+  content: "\e43a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-network:before {
+  content: "\e903";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-notepad:before {
+  content: "\e951";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-notification:before {
+  content: "\e60e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-notification-off:before {
+  content: "\e60f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-notification-stroke:before {
+  content: "\e629";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-nudge:before {
+  content: "\e993";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-office:before {
+  content: "\e60c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-ok:before {
+  content: "\e412";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-open-folder:before {
+  content: "\e223";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-original-size:before {
+  content: "\e980";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-outline:before {
+  content: "\e941";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pstn-caller:before {
+  content: "\e988";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pause:before {
+  content: "\e40f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pc-speakers:before {
+  content: "\e61d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-phone-address-book:before {
+  content: "\e204";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-picture:before {
+  content: "\e422";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pin:before {
+  content: "\e617";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pin-blocked:before {
+  content: "\e709";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pin-off:before {
+  content: "\e618";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pin-off-status:before {
+  content: "\e619";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pinning:before {
+  content: "\e132";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-pinning-off:before {
+  content: "\e133";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-planner:before {
+  content: "\e018";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-play:before {
+  content: "\e40e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-play-resume:before {
+  content: "\e43e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-plus:before {
+  content: "\e415";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-poll:before {
+  content: "\e620";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-power-bi:before {
+  content: "\e017";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-away:before {
+  content: "\f10a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-away-xs:before {
+  content: "\f103";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-away-xxs:before {
+  content: "\f106";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-blocked:before {
+  content: "\f10c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-busy-xs:before {
+  content: "\f104";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-busy-xxs:before {
+  content: "\f107";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-call-forward:before {
+  content: "\f10e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-dnd:before {
+  content: "\f10b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-away:before {
+  content: "\f110";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-away-12px:before {
+  content: "\f116";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-call-forward:before {
+  content: "\f113";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-call-forward-12px:before {
+  content: "\f119";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-dnd:before {
+  content: "\f111";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-dnd-12px:before {
+  content: "\f117";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-mobile:before {
+  content: "\f11c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-mobile-12px:before {
+  content: "\f11d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-offline:before {
+  content: "\f114";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-offline-12px:before {
+  content: "\f11a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-online:before {
+  content: "\f10f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-online-12px:before {
+  content: "\f115";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-unknown:before {
+  content: "\f112";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-unknown-12px:before {
+  content: "\f118";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-glyph-unknown-12px-rtl:before {
+  content: "\f124";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-mobile:before {
+  content: "\f11b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-offline-xs:before {
+  content: "\f102";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-offline-xxs:before {
+  content: "\f105";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-online:before {
+  content: "\f109";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-online-stroke:before {
+  content: "\f122";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-stroke:before {
+  content: "\f108";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presence-unknown:before {
+  content: "\f10d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-presentation:before {
+  content: "\e12b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-print:before {
+  content: "\e222";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-privacy:before {
+  content: "\e609";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-privacy-classification:before {
+  content: "\e994";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-progress:before {
+  content: "\e97d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-promote:before {
+  content: "\e954";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-qr:before {
+  content: "\e21e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-question:before {
+  content: "\e603";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-question-mark-filled:before {
+  content: "\e62c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-question-rtl:before {
+  content: "\e606";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-questionnaire:before {
+  content: "\e621";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-quick-look:before {
+  content: "\e329";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-quote-close:before {
+  content: "\e320";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-quote-open:before {
+  content: "\e332";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-recent:before {
+  content: "\e115";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-recent-with-badge:before {
+  content: "\e338";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-refresh:before {
+  content: "\e605";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-reload:before {
+  content: "\e61a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-reply:before {
+  content: "\e30e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-rigel:before {
+  content: "\e981";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-rigel-add:before {
+  content: "\e982";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-right:before {
+  content: "\e419";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-rotate:before {
+  content: "\e940";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-sad:before {
+  content: "\e32a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-safari:before {
+  content: "\e624";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-save:before {
+  content: "\e937";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-screen-capture:before {
+  content: "\e438";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-screenshare:before {
+  content: "\e10a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-search:before {
+  content: "\e406";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-search-xl:before {
+  content: "\e446";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-send:before {
+  content: "\e323";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-settings:before {
+  content: "\e60a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-settings-audio:before {
+  content: "\e616";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-settings-skypeout:before {
+  content: "\e127";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-share:before {
+  content: "\e324";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-share-android:before {
+  content: "\e33e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-share-from:before {
+  content: "\e126";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-share-ios:before {
+  content: "\e122";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-share-stop:before {
+  content: "\e12f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-share-to:before {
+  content: "\e120";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-share-to-tv:before {
+  content: "\e950";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-sharepoint:before {
+  content: "\e019";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-sharing:before {
+  content: "\e12d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-sign-out:before {
+  content: "\e60d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-signal:before {
+  content: "\e40b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-skype-address-book:before {
+  content: "\e203";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-skype-credit:before {
+  content: "\e500";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-skype-for-business:before {
+  content: "\f80c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-skype-manager:before {
+  content: "\e20f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-skype-number:before {
+  content: "\e116";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-skype-to-go:before {
+  content: "\e502";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-skype-translator:before {
+  content: "\e331";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-star-in-circle:before {
+  content: "\e343";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-stickers:before {
+  content: "\e987";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-stop:before {
+  content: "\e410";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-subscription-country:before {
+  content: "\e506";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-subscription-region:before {
+  content: "\e507";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-subscription-world:before {
+  content: "\e508";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-swipe-all:before {
+  content: "\e95a";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-swipe-down:before {
+  content: "\e95c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-swipe-left:before {
+  content: "\e958";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-swipe-left-right:before {
+  content: "\e95d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-swipe-right:before {
+  content: "\e959";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-swipe-up:before {
+  content: "\e95b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-swipe-up-down:before {
+  content: "\e95e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-switch-camera:before {
+  content: "\e311";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-tv:before {
+  content: "\e11f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-tv-off:before {
+  content: "\e121";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-tab:before {
+  content: "\e137";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-table:before {
+  content: "\e992";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-tap:before {
+  content: "\e957";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-test-glyph:before {
+  content: "\f101";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-to-do:before {
+  content: "\e97e";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-to-do-list:before {
+  content: "\e953";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-top-left:before {
+  content: "\f703";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-top-right:before {
+  content: "\f700";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-topic:before {
+  content: "\e40d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-topup-history:before {
+  content: "\e50d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-topup-history-background:before {
+  content: "\e50c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-type:before {
+  content: "\e933";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-underline:before {
+  content: "\e935";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-undo:before {
+  content: "\e32d";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-up:before {
+  content: "\e417";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-user-video-off-status:before {
+  content: "\e11b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-vi-m:before {
+  content: "\e339";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-video:before {
+  content: "\e102";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-video-front:before {
+  content: "\e10b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-video-hd:before {
+  content: "\e607";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-video-off:before {
+  content: "\e103";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-video-off-status:before {
+  content: "\e119";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-video-rear:before {
+  content: "\e10c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-videomail:before {
+  content: "\e305";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-videomail-off-status:before {
+  content: "\e30f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-voicemail:before {
+  content: "\e304";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-volume-max:before {
+  content: "\e400";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-volume-mid:before {
+  content: "\e401";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-volume-min:before {
+  content: "\e402";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-volume-off:before {
+  content: "\e403";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-wfh:before {
+  content: "\e916";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-warning:before {
+  content: "\e601";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-whobot:before {
+  content: "\e50f";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-wifi:before {
+  content: "\e123";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-wiki:before {
+  content: "\e910";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-yo:before {
+  content: "\e946";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-youtube:before {
+  content: "\e020";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-zoom-in:before {
+  content: "\e97b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-zoom-out:before {
+  content: "\e97c";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-_215:before {
+  content: "\e215";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-_485:before {
+  content: "\e346";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-uni-e60b:before {
+  content: "\e60b";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-uni-f800:before {
+  content: "\f800";
+  bottom: 1px;
+  position: relative;
+}
+
+.ts-uni-f801:before {
+  content: "\f801";
+  bottom: 1px;
+  position: relative;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+/*# sourceMappingURL=awesome.css.map */

@@ -1,0 +1,18 @@
+// List Icons
+// -------------------------
+
+.#{$ts-css-prefix}-ul {
+  list-style-type: none;
+  margin-left: $ts-li-width * 5/4;
+  padding-left: 0;
+
+  > li { position: relative; }
+}
+
+.#{$ts-css-prefix}-li {
+  left: -$ts-li-width;
+  position: absolute;
+  text-align: center;
+  width: $ts-li-width;
+  line-height: inherit;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;GAIG,AACH;;;GAGG,AAGH,UAAU,CACR,WAAW,CAAE,oBAAoB,CACjC,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,MAAM,CACnB,YAAY,CCVS,KAAK,CDW1B,GAAG,CAAE,qCAA6C,CAClD,GAAG,CAAE,4CAAoD,CAAC,2BAA2B,CACrF,uCAA+C,CAAC,eAAe,CAC/D,sCAA8C,CAAC,cAAc,CAC7D,qCAA6C,CAAC,kBAAkB,CAChE,qCAA6C,CAAC,aAAa,CAG7D,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,oBAAoB,CACjC,WAAW,CAAE,MAAM,CACpB",
+    "sources": [
+        "../scss/light.scss",
+        "../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "light.min.css"
+}

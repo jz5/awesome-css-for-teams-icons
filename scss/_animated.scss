@@ -1,0 +1,20 @@
+// Animated Icons
+// --------------------------
+
+.#{$ts-css-prefix}-spin {
+  animation: ts-spin 2s infinite linear;
+}
+
+.#{$ts-css-prefix}-pulse {
+  animation: ts-spin 1s infinite steps(8);
+}
+
+@keyframes ts-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,18 @@
+// Base Class Definition
+// -------------------------
+
+.#{$ts-css-prefix},
+.tsr,
+.tsl {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+%ts-icon {
+  @include ts-icon;
+}
